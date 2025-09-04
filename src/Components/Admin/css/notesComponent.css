@@ -1,0 +1,6 @@
+.notes-cards-grid {
+  display: flex;
+  gap: 1.3rem;
+  flex-wrap: wrap;
+  margin: 2rem;
+}

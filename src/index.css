@@ -1,0 +1,18 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#root {
+  position: relative;
+}
+
+/* Hide Scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.disable-component {
+  pointer-events: none;
+  opacity: 50%;
+}

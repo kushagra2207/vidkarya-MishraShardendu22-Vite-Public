@@ -1,0 +1,20 @@
+.on {
+  color: #ff6e0f;
+}
+.off {
+  color: #ccc;
+}
+
+.rate-post-btn {
+  color: #72b5b2;
+  background-color: #fff;
+  padding-block: 0.1rem;
+  padding-inline: 1rem;
+  border-radius: 10px;
+  border: 3px solid #72b5b2;
+}
+
+.rate-post-btn:hover {
+  color: #fff;
+  background-color: #72b5b2;
+}

@@ -1,0 +1,44 @@
+.filterPanel {
+  margin-right: 10px;
+}
+
+.addNewProjBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border: 1.2px solid #38b5aa;
+  height: 40px;
+  color: #00a396;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 4px;
+  margin: 15px 0px 5px 0px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+.addNewProjBtn:hover {
+  background-color: #2ea99f;
+  color: white;
+}
+
+.dashboardBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  height: 40px;
+  color: white;
+  background-color: #2ea99f;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 4px;
+  margin: 15px 0px 5px 0px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+.dashboardBtn:hover {
+  background-color: #21988f;
+}

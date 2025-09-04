@@ -1,0 +1,99 @@
+/* MOBILE VERSION */
+@media screen and (max-width: 450px) {
+  .settingsWrapper {
+    margin: 0.5rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    width: auto;
+  }
+
+  /* PRIVACY */
+
+  .privacyBox {
+    margin: 0.2rem;
+    padding: 0.2rem;
+  }
+
+  .privacyItem {
+    margin: 10px 5px 20px 5px;
+  }
+
+  .pricacySelectionBox {
+    border: 0.05rem solid black;
+  }
+
+  .privacyItemSocial {
+    margin: 5px 5px 25px 5px;
+  }
+
+  .connectedAccountsBox {
+    margin: 10px 0px 10px 0px;
+    padding: 0px 2px 0px 2px;
+  }
+
+  .accDetailsBox {
+    margin: 5px 5px 5px 5px;
+  }
+
+  .accountTextHead {
+    font-size: 15px;
+  }
+
+  .disconnectSocialBtn {
+    margin: 5px 5px 5px 10px;
+    padding: 1px 5px 1px 5px;
+    font-size: 13px;
+  }
+
+  .connectMoreAccounts {
+    margin: 15px 0px 15px 0px;
+  }
+  .connectMoreTextBox {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .MoreSocialAccountIcon {
+    border: 0.05rem solid grey;
+  }
+
+  .dataPrivacyItem {
+    display: flex;
+    align-items: center;
+  }
+
+  .dataPrivacyBtn {
+    padding: 1px 5px 1px 5px;
+    font-size: 13px;
+    height: 2rem;
+  }
+
+  .dataVisibilityOptions {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 0.1rem solid rgb(174, 174, 174);
+    border-radius: 5px;
+  }
+
+  /* SECURITY */
+
+  .securityItem {
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+  }
+
+  .changePassBtn,
+  .addPasswordBtn,
+  .signOutFromAllBtn,
+  .deleteAccountBtn {
+    font-size: 13px;
+    height: 2.5rem;
+    width: 5rem;
+    margin-left: 15px;
+  }
+
+  .deleteAccountBtn {
+    width: 6.5rem;
+  }
+}

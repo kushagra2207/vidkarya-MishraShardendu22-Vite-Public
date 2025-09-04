@@ -1,0 +1,117 @@
+/* Main Component */
+.MessScheduleContainer {
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.MessCardItem {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Top card */
+
+.trapezoidTopCard {
+  position: relative;
+  width: 180px; /* Adjust the width as needed */
+  height: 180px;
+  background-color: #d9d0cb;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  background: linear-gradient(to bottom, transparent 0%, #d9d0cb 100%);
+  transform: perspective(250px) rotateX(30deg); /* Apply a 3D rotation to create the trapezoid shape */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Hide overflowing content */
+}
+.MessTopCardIcon {
+  display: flex;
+  justify-content: center;
+  font-size: 24px; /* Adjust the size of the icon */
+  color: #333; /* Change the color of the icon */
+  padding-top: 10px;
+}
+.MessTopCardName {
+  font-size: 15px; /* Adjust the font size of the name */
+  margin-top: 10px; /* Adjust the spacing between the icon and the name */
+  color: #333; /* Change the color of the name */
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.MessTop {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+/* Middle Card */
+
+.MessCardContainer {
+  background-color: #d9d0cb;
+  padding: 25px;
+  width: 220px;
+  height: 200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2.5px solid #38b5aa;
+}
+.MessMiddle {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  font-size: 24px; /* Adjust the size of the icon */
+  color: #333; /* Change the color of the icon */
+  padding-top: 10px;
+}
+.name {
+  font-size: 18px; /* Adjust the font size of the name */
+  margin-top: 10px; /* Adjust the spacing between the icon and the name */
+  color: #333; /* Change the color of the name */
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* Bottom Card */
+
+.MessBottom {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.trapezoidBottom {
+  position: relative;
+  width: 180px; /* Adjust the width as needed */
+  height: 180px;
+  background-color: #d9d0cb;
+  text-align: center;
+  padding: 10px 20px 30px 20px;
+  margin: 20px auto; /* Optional: Center the card horizontally */
+  background: linear-gradient(to bottom, #d9d0cb 0%, transparent 100%); /* Adjust the gradient */
+  transform: perspective(250px) rotateX(-30deg); /* Apply a 3D rotation to create the trapezoid shape */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Hide overflowing content */
+}
+.MessBottomCardIcon {
+  display: flex;
+  justify-content: center;
+  font-size: 24px; /* Adjust the size of the icon */
+  color: #333; /* Change the color of the icon */
+  padding-top: 10px;
+}
+.MessBottomCardName {
+  font-size: 15px; /* Adjust the font size of the name */
+  margin-top: 10px; /* Adjust the spacing between the icon and the name */
+  color: #333; /* Change the color of the name */
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

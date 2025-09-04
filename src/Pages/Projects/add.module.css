@@ -1,0 +1,36 @@
+.main {
+  margin-top: 25px !important;
+  margin-bottom: 50px !important;
+}
+
+.hr {
+  border: none;
+  height: 2px;
+  /* Adjust the thickness of the line */
+  background-color: #c1c1c1;
+  /* Change the color of the line */
+  margin: 20px 0;
+  /* Add margin for spacing */
+  width: 100%;
+}
+
+.title {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.submit_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.custom_button1 {
+  background-color: #00a385 !important;
+  color: #ffffff !important;
+  margin-right: 15px !important;
+}
+
+.custom_button2 {
+  background-color: #ff5e5e !important;
+  color: #ffffff !important;
+}

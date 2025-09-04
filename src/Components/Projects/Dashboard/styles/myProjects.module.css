@@ -1,0 +1,22 @@
+.projPageWrapper {
+  padding: 10px;
+}
+
+.projCardsWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+  gap: 10px;
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.loadingText {
+  font-size: medium;
+  color: grey;
+  font-weight: 500;
+}

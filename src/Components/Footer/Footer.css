@@ -1,0 +1,170 @@
+.footerWrapper {
+  color: white;
+  background-color: #38b5aa;
+  font-family: 'Roboto';
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 450px) {
+  .footerTop {
+    flex-direction: column;
+  }
+}
+
+/*       L O G O       */
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.footerLogoImg {
+  width: auto;
+  height: 250px;
+}
+
+@media screen and (max-width: 450px) {
+  .footerLogo {
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .footerLogoImg {
+    height: 100px;
+  }
+}
+
+/*       L I N K S        */
+
+.footerLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.footerLinksCol1,
+.footerLinksCol2,
+.footerLinksCol3 {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 15px 15px;
+  padding: 10px;
+}
+
+.footerLinkHead {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footerLinksList {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinksListItem {
+  margin: 5px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 450px) {
+  .footerLinks {
+    justify-content: center;
+    margin-right: 0px;
+  }
+
+  .footerLinksCol1 {
+    display: none;
+  }
+
+  .footerLinksCol1,
+  .footerLinksCol2,
+  .footerLinksCol3 {
+    margin: 15px 15px 15px 15px;
+    /* align-items: center; */
+  }
+
+  .footerLinkHead {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  .footerLinksListItem {
+    font-size: 15px;
+  }
+}
+
+/*      B O T T O M     B A R    */
+
+.footerBottomBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px 0px 10px;
+  padding: 5px;
+}
+
+.footerCopyrightText {
+  display: flex;
+  align-items: center;
+}
+
+.footerSocialLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerSocialText {
+  margin-right: 15px;
+}
+
+.footerSocialLogoWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foooterSocialLogo {
+  margin: 10px;
+  size: 30;
+  color: white;
+}
+
+.foooterSocialLogo:hover {
+  color: rgb(228, 228, 228);
+}
+
+@media screen and (max-width: 450px) {
+  .footerBottomBar {
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 5px 0px 5px;
+  }
+
+  .footerSocialLinks {
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .footerCopyrightText {
+    font-size: 13px;
+  }
+
+  .footerSocialText {
+    font-size: 13px;
+  }
+}
+.logo-box {
+  margin: 4rem 0rem 2rem 4rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 450px) {
+  .logo-box {
+    margin: 5rem 1rem 0rem 0rem;
+  }
+}

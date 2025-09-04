@@ -1,0 +1,110 @@
+.userName {
+  font-weight: normal;
+  font-size: 16px;
+  color: black;
+}
+
+.menu-container {
+  position: relative;
+  border-radius: 22px;
+  width: max-content;
+  z-index: 999;
+  border: 1px solid rgb(198, 198, 198);
+}
+
+.menu-button {
+  background: none;
+  /* -webkit-appearance: none; */
+  -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
+  border: none;
+  padding: 0 9px;
+  padding-right: 20px;
+  height: 44px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  outline: none !important;
+  background-color: transparent;
+  color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+/* on hovering 'menu-container' (parent) => Show Dropdown */
+.menu-container:hover .menu-dropdown {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.menu-button > img {
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  margin-right: 14px;
+}
+
+.menu-dropdown {
+  visibility: hidden;
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  padding-top: 44px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  right: -1px;
+  overflow: hidden;
+  border-radius: 22px 22px 11px 11px;
+
+  transform: translateY(-10px); /*animate  top to bottom*/
+  transform-origin: 0 0;
+  transition: 0.3s all;
+}
+
+.content {
+  overflow: hidden;
+  border-top: 1px solid rgb(198, 198, 198);
+  padding: 9px 0px 0px 0px;
+}
+
+.menu-dropdown .content > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  list-style: none;
+  font-size: 16px;
+  margin: 0 0 12px;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 80px;
+  color: rgba(57, 57, 57, 0.8) !important;
+  transition: 0.5s;
+}
+
+.menu-item:hover {
+  transition: 0.5s;
+  color: rgb(0, 0, 0) !important;
+}
+
+.navLogoIcon {
+  margin-right: 5px;
+}
+
+.menu-dropdown > .menu-button {
+  border: none;
+  color: #000;
+}

@@ -1,0 +1,13 @@
+.skeleton {
+  @apply rounded;
+  animation: skeleton-animation 1s linear infinite alternate;
+}
+
+@keyframes skeleton-animation {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 90%);
+  }
+}

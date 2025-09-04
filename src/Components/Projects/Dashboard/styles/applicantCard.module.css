@@ -1,0 +1,101 @@
+.CardMain {
+  margin: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 0 11px rgba(101, 101, 101, 0.2);
+  width: 520px;
+  /* height: 300px; */
+  font-family: Roboto;
+  position: relative;
+}
+
+.CardTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.CardTopLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoURL {
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+}
+
+.CardHead {
+  margin-left: 10px;
+}
+
+.CardMainHead {
+  font-weight: 600;
+}
+
+.CardAuthor {
+  color: grey;
+  font-weight: 400;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.Desctiption {
+  font-size: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.Details {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.DetailsHead {
+  font-weight: 500;
+  color: #007f68;
+  margin: 0px 10px 0px 10px;
+}
+
+.DetailsDesc {
+  font-weight: 450;
+}
+
+.DetailsLogo {
+  color: #38b5aa;
+}
+
+.CardBtns {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  bottom: 15px;
+  width: 95%;
+}
+
+.updateBtn {
+  color: white;
+  background-color: #00a385;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 35px;
+  font-size: small;
+  transition: all;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.updateBtn:hover {
+  background-color: #008a70;
+  cursor: pointer;
+}

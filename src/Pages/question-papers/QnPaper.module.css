@@ -1,0 +1,94 @@
+.wrapper {
+  padding: 30px 50px 30px 50px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.landingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingDescription {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10% 5% 2%;
+}
+
+.landingDescHead {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #1cb4a7;
+}
+
+.landingDescSubHead {
+  text-align: justify;
+  font-size: 15px;
+  color: rgb(101, 101, 101);
+}
+
+.landingImg {
+  height: 400px;
+}
+
+/* SEARCH */
+
+.searchWrapper {
+  margin: auto;
+  margin-bottom: 5%;
+  width: 60%;
+  height: 55px;
+  padding: 5px 5px 5px 10px;
+  display: flex;
+  align-items: center;
+
+  border-radius: 12px;
+  border: 0.1px solid rgb(199, 199, 199);
+  border-width: 1px;
+  box-shadow: rgba(173, 178, 183, 0.3) 0px 8px 24px;
+  background-color: white;
+}
+
+@media screen and (max-width: 450px) {
+  .searchWrapper {
+    width: 90%;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+}
+
+.inputText {
+  width: 100%;
+  outline: none;
+  border: 0px;
+  font-size: medium;
+}
+
+.sendIconBox {
+  height: 90%;
+  margin-right: 0.3%;
+  border-radius: 7px;
+  background-color: #19c37d;
+  color: white;
+  padding: 1px 10px 1px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sendIconBox:hover {
+  background-color: #14b672;
+}
+
+.sendIcon {
+  font-size: larger;
+}
+
+.noResults {
+  margin-left: 50%;
+  color: rgb(143, 142, 142);
+}

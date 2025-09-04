@@ -1,0 +1,115 @@
+.projectCard-Main {
+  margin: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 0 11px rgba(101, 101, 101, 0.2);
+  width: 95%;
+  height: 18rem;
+  font-family: Roboto;
+  position: relative;
+}
+
+.projectCard-Top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.projectCardTopLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoURL {
+  height: 40px;
+  width: 40px;
+  border-radius: 20%;
+}
+
+.projectCardHead {
+  margin-left: 10px;
+}
+
+.projectCardMainHead {
+  font-weight: 600;
+}
+
+.projectCardAuthor {
+  color: grey;
+  font-weight: 400;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.projectDesctiption {
+  font-size: 12px;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+
+.projectDetails {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+}
+
+.projectDetailsHead {
+  font-weight: 500;
+  color: #007f68;
+  margin: 0px 10px 0px 10px;
+}
+
+.projectDetailsDesc {
+  font-weight: 450;
+}
+
+.projectCard-WorkingPeople {
+  display: flex;
+  align-items: center;
+}
+
+.projectCard-WorkingPeopleDP {
+  height: 25px;
+}
+
+.projectCard-WorkingPeopleInfo {
+  color: rgb(103, 103, 103);
+  font-weight: 500;
+  font-size: 13px;
+  margin: 10px 10px 10px 10px;
+}
+
+.projectCardBtns {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  justify-content: flex-end;
+  width: 95%;
+}
+
+.projectApplyBtn,
+.viewProjectDetailsBtn {
+  color: white;
+  background-color: #2ea99f;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 35px;
+  font-size: small;
+  transition: all;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: 0.2s ease-in-out all;
+}
+
+.projectApplyBtn:hover,
+.viewProjectDetailsBtn:hover {
+  background-color: #21988f;
+  cursor: pointer;
+}

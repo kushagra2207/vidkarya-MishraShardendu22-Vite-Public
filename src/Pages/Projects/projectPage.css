@@ -1,0 +1,76 @@
+:root {
+  --Color_1: #005c6a;
+}
+
+.projectPageWrapper {
+  display: flex;
+  padding: 15px;
+}
+
+.projectPageLeftPanel {
+  width: 20%;
+  border-right: 1px solid grey;
+}
+
+.projectPageMain {
+  width: 80%;
+}
+
+.projectPageTop {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.projPageSearch {
+  display: flex;
+  margin-right: 40px;
+}
+
+.filter-btn {
+  color: black !important;
+  border-color: black !important;
+}
+
+.filter-btn:hover {
+  border-color: var(--Color_1) !important;
+  background-color: var(--Color_1) !important;
+  color: white !important;
+}
+
+.sortBtn {
+  cursor: not-allowed !important;
+}
+
+.projPageInput {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.projPageSearchBtn:hover {
+  cursor: pointer;
+}
+
+.projectsWrapper {
+  padding-left: 15px;
+}
+
+.projectCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+  gap: 15px;
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.loadingText {
+  font-size: medium;
+  color: grey;
+  font-weight: 500;
+}

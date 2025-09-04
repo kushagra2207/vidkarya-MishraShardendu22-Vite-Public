@@ -1,0 +1,65 @@
+.eventsContainer {
+  background: url('https://res.cloudinary.com/dkyb14ghi/image/upload/v1696186156/webAsset/Dashboard/yfbauszrs0wavj78kwgl')
+    no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.eventsRightTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eventsTopHeading {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 15px 10px 15px 10px;
+}
+
+.eventIcon {
+  margin-right: 15px;
+  color: #1f837a;
+}
+
+.eventsRightTopSearchBar {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin-right: 30px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.eventsRightTopSearchBar:focus {
+  outline: none;
+}
+
+/* E V E N T S */
+
+.pastEventsContainer,
+.upcomingEventsContainer {
+  margin-bottom: 30px;
+}
+
+.pastEventsHead,
+.upcomingEventsHead {
+  font-size: 20px;
+  font-weight: 500;
+  color: #27948b;
+  margin: 10px 10px 10px 10px;
+  background: -webkit-linear-gradient(#1f837a, #9ee0db);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pastEventsCard,
+.upcomingEventsCard {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+/* .pastEventsCard div, .upcomingEventsCard div {
+} */

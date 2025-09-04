@@ -1,0 +1,16 @@
+.rateNotesBtn {
+  border-radius: 12px;
+  color: white;
+  background-color: #ff6e0f;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rateNotesBtn:hover {
+  background-color: #e75d00;
+  cursor: pointer;
+}

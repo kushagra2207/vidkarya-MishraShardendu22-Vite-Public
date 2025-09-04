@@ -1,0 +1,109 @@
+.dashboardNav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dashboardNavWrapper {
+  font-family: 'Roboto';
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px;
+  border-radius: 5px;
+  /* width: 90%; */
+  margin: 5px 5px 5px 2px;
+  padding: 15px 8px 5px 0px;
+  margin-bottom: 15px;
+  user-select: none;
+}
+
+.dbNavTop {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.dbNavTopLeft {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dbNavBatchText {
+  font-weight: 500;
+  font-size: 14px;
+  color: #0094ff;
+}
+
+.dbNavTopRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: 15px;
+}
+
+.dbNavHeading {
+  margin-bottom: -6px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #27948b;
+}
+
+.dbNavSubHeading {
+  margin: 6px 5px 5px 5px;
+  color: goldenrod;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.dbNavList {
+  display: flex;
+  flex-direction: column;
+}
+
+.dbNavListItem {
+  padding: 15px 5px 15px 5px;
+  display: flex;
+  align-items: center;
+  margin-block: 10px;
+  border-radius: 5px;
+  color: #27948b;
+}
+
+.dbNavListItemSelected {
+  padding: 15px 5px 15px 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #38b5aa;
+  color: white !important;
+  margin-block: 10px;
+}
+
+.dbNavListItem:hover {
+  background-color: #bac3c2;
+  cursor: pointer;
+}
+
+.dbNavListItem:hover > .dbNavListItemText {
+  color: white;
+}
+
+.dbNavListItem:hover > .dbNavListItemIconImg {
+  color: white;
+}
+
+.dbNavListItemIcon {
+  margin: 0px 0px 0px 13px;
+}
+
+.dbNavListItemIconImg {
+  color: #27948b;
+}
+
+.dbNavListItemText {
+  margin: 0px 0px 0px 25px;
+  font-size: 17px;
+  font-weight: 450;
+}

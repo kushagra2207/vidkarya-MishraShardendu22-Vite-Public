@@ -1,0 +1,13 @@
+.dbWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboardRight {
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  margin-left: 10px;
+}

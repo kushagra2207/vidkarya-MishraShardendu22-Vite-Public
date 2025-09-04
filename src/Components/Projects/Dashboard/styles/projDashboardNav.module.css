@@ -1,0 +1,129 @@
+.navWrapper {
+  font-family: 'Roboto';
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px;
+  border-radius: 5px;
+  width: 20%;
+  margin: 5px 5px 5px 2px;
+  padding: 15px 8px 5px 0px;
+  margin-bottom: 15px;
+  height: 90vh;
+  user-select: none;
+}
+
+.dbNavTop {
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 10px 10px 20px 10px;
+}
+
+.dbNavTopLeft {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dbNavBatchText {
+  font-weight: 500;
+  font-size: 14px;
+  color: #0094ff;
+}
+
+.dbNavTopRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: 15px;
+}
+
+.dbNavHeading {
+  margin-bottom: -6px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #27948b;
+}
+
+.dbNavSubHeading {
+  margin: 6px 5px 5px 0px;
+  color: goldenrod;
+  font-weight: 500;
+  font-size: 11px;
+  display: flex;
+}
+
+.dbNavList {
+  display: flex;
+  flex-direction: column;
+}
+
+.dbNavListItem {
+  padding: 15px 5px 15px 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: #27948b;
+  cursor: pointer;
+}
+
+.dbNavListItemSelected {
+  padding: 15px 5px 15px 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #38b5aa;
+  color: white !important;
+  cursor: pointer;
+}
+
+.dbNavListItem:hover {
+  background-color: #00afa1;
+  cursor: pointer;
+}
+
+.dbNavListItem:hover > .dbNavListItemText {
+  color: white;
+}
+
+.dbNavListItem:hover > .dbNavListItemIconImg {
+  color: white !important;
+}
+
+.dbNavListItemIcon {
+  margin: 0px 0px 0px 13px;
+}
+
+.dbNavListItemIconImg {
+  color: #27948b;
+}
+
+.dbNavListItemText {
+  margin: 0px 0px 0px 25px;
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.addNewProjBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border: 1.2px solid #38b5aa;
+  height: 40px;
+  color: #00a396;
+  font-size: 14px;
+  border-radius: 15px;
+  padding: 4px;
+  margin: 15px 0px 5px 0px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s ease-in-out all;
+}
+.addNewProjBtn:hover {
+  background-color: #38b5aa;
+  color: white;
+}
+
+.addProjIcon {
+  margin-right: 10px;
+}

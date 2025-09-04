@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins&display=swap');
+.delete-event-section {
+  backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  transition: transform 1.5s ease;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100dvw;
+  z-index: 10;
+}
+
+.delete-event-box {
+  width: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 3px 4px 2px rgba(0, 0, 0, 0.29);
+}
+
+.delete-event-box-heading {
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: x-large;
+  color: rgb(238, 1, 1);
+  margin: 0.5rem;
+}
+
+.delete-event-box-text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  margin: 0.5rem;
+}
+
+.event-popup-buttons-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+
+.event-popup-cancle-button {
+  border: 1px solid rgba(0, 92, 106, 1);
+  color: rgba(0, 92, 106, 1);
+  font-weight: 500;
+  border-radius: 4px;
+  font-family: 'Inter';
+  padding: 0.5rem;
+  position: relative;
+}
+.event-popup-cancle-button:hover {
+  color: white;
+  background-color: rgba(0, 92, 106, 1);
+}
+.event-popup-delete-button {
+  border: 1px solid red;
+  color: red;
+  font-weight: 500;
+  border-radius: 4px;
+  font-family: 'Inter';
+  padding: 0.5rem;
+  position: relative;
+}
+.event-popup-delete-button:hover {
+  color: white;
+  background-color: red;
+}

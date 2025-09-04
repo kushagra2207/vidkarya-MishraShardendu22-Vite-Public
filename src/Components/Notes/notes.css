@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@700&family=Inter+Tight&family=Open+Sans:wght@600&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Merriweather&family=Roboto:wght@300&display=swap');
+
+.buttons {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.btn1 {
+  font-size: medium !important;
+  color: #ff6e0f !important;
+  border-color: #ff6e0f !important;
+}
+
+.btn1:hover {
+  background-color: #ff6e0f !important;
+  color: white !important;
+}
+
+.blog_image {
+  margin-left: 140px !important;
+}
+
+@media screen and (max-width: 920px) {
+  .buttons {
+    width: 100%;
+  }
+
+  .btn1 {
+    height: 50px;
+    width: 130px;
+    font-size: small !important;
+  }
+
+  .btn2 {
+    height: 50px;
+    width: 130px;
+    font-size: small !important;
+  }
+
+  .blog_image {
+    width: 100%;
+    margin-left: 55px !important;
+  }
+}
+
+@media screen and (max-width: 920px) and (min-width: 712px) {
+  .buttons {
+    width: 45%;
+  }
+}
+
+/* css for notes navbar */
+.notes-navbar-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.15rem;
+}
+
+.notes-navbarContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.notes-navbar-grid {
+  display: flex;
+  align-items: center;
+  padding-block: 0.5em;
+  padding-inline: 4em;
+  justify-content: space-between;
+}
+
+.tag-title {
+  font-size: large;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  color: #00a385;
+}
+
+.tags-bundle {
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+}
+
+.notes-search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 40px;
+  padding: 0.5em;
+}
+
+.notes-search:hover > .notes-searchInput {
+  width: 100%;
+  padding: 0 6px;
+}
+
+.notes-search:hover {
+  background: #d9d9d9;
+}
+
+.notes-search:hover > .notes-searchButton {
+  background: #d9d9d9;
+  color: black;
+}
+
+.notes-searchButton {
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.notes-searchInput {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  float: left;
+  color: black;
+  font-size: 16px;
+  transition: 0.4s;
+  width: 0px;
+}
+
+@media screen and (max-width: 620px) {
+  .notes-search:hover > .notes-searchInput {
+    width: 100%;
+    padding: 0 6px;
+  }
+  .img-box img {
+    width: 100%;
+  }
+}
+
+/* css for notes carasole */
+.notes-carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.notes-carousel {
+  max-width: 65%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.carousel-slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+  gap: 1rem;
+}
+
+.carousel {
+  display: inline-block;
+  margin-block: 1em;
+  padding-inline: 2em;
+  padding-inline: 3em;
+  border-radius: 0.3125rem;
+  border: 1px solid #c3c3c3;
+  background: #fff;
+  box-shadow: 4px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.notes-carousel-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notes-carousel-text-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  gap: 1rem;
+}
+
+.notes-carasole-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: x-large;
+  text-align: start;
+  font-weight: 600;
+}
+
+.notes-carasole-paragraph {
+  font-family: 'Inter Tight', sans-serif;
+  white-space: pre-wrap;
+}
+
+.carousel-img {
+  display: flex;
+  justify-content: flex-end;
+  width: 15.25rem;
+  height: 13rem;
+  flex-shrink: 0;
+}
+
+.notes-carousel-section:hover > .arrow {
+  display: block;
+}
+
+.arrow {
+  display: none;
+  filter: drop-shadow(0px 0px 5px #555);
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  z-index: 5;
+  margin-inline: -2rem;
+  transition: 0.4s;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+
+.indicators {
+  display: flex;
+  /* position: absolute; */
+  justify-content: center;
+  margin-bottom: 1rem;
+  /* bottom: 1rem; */
+}
+
+.indicator {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.indicator-inactive {
+  background-color: grey;
+}
+
+/* css for Recommended notes */
+.RecommendedNotesSection {
+  margin-block: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.RecNotesText {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: 50%;
+  padding-left: 5px;
+}
+
+.RecNotesTextHeading {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.RecNotesTextPara {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+/* .RecommendedNotesWrapper {
+  padding: 5px;
+} */
+
+.RecNotesNavBar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.RecNotesTopRatedBtn,
+.RecNotesNewBtn,
+.RecNotesMostViewedBtn {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 1rem;
+  /* font-weight: 500; */
+  font-weight: bold;
+  margin: 5px 10px 10px 5px;
+}
+
+.RecNotesTopRatedBtn:hover,
+.RecNotesNewBtn:hover,
+.RecNotesMostViewedBtn:hover {
+  text-decoration: underline;
+}
+
+.recNotesContainer {
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.recNotesContainer::-webkit-scrollbar {
+  width: 0;
+  /* Set a width to create a transparent scrollbar space (optional) */
+}
+.RecNotescardsWrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.RecNotescardsWrapper {
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+  overflow-x: scroll;
+  margin: 5px;
+  scrollbar-width: 0;
+  padding: 8px;
+}
+
+.mini-notes-arrow {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 5px #555);
+  color: white;
+  position: absolute;
+  z-index: 3;
+  margin-inline: 5.1rem;
+}
+
+.visibleCard {
+  transform: translateX(0);
+}
+
+/* css for notes card (MINI) */
+.NotesCardMini {
+  flex: 1 0 10%;
+  padding: 5px 5px 10px 5px;
+  flex-direction: column;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 5px;
+  transition: transform 0.5s ease;
+  width: 13rem;
+}
+
+.NotesCardMini:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  cursor: pointer;
+}
+
+/* .NotesCardMiniCover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.NotesCardMiniCoverPic {
+  width: 100%;
+  object-fit: cover;
+}
+
+.NotesCardMiniHeading {
+  margin: 10px 5px 10px 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.NotesCardMiniDesc {
+  margin: 0px 5px 5px 5px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.NotesCardMiniBottom {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.NotesCardMiniViews {
+  display: flex;
+  align-items: center;
+}
+
+.NotesCardMini-viewIcon {
+  margin-left: 5px;
+}
+
+.NotesCardMiniViewsText,
+.NotesCardMiniDate {
+  margin: 3px;
+  color: rgb(93, 93, 93);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* css for notes-card */
+.notes-card {
+  box-shadow: -3px 3px 7px 0px rgba(204, 204, 204, 0.25) inset;
+  background: #fff;
+  border: 0.5px solid #ccc;
+  cursor: pointer;
+}
+
+.notes-card-title {
+  font-family: 'Merriweather', serif;
+  font-size: x-large;
+}
+
+.notes-card-small-details {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.notes-card-discription {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  width: 70%;
+}
+
+.notes-card-rating-time {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+.notes-options-box {
+  /* width: fit-content; */
+  @apply p-1 shadow absolute z-30 bg-white right-[3rem] border my-3 text-sm;
+}
+
+.notes-options-box p {
+  @apply my-2;
+}
+
+.notes-options-box div {
+  @apply flex gap-3 items-center cursor-pointer px-4 hover:bg-[#CCC];
+}

@@ -1,0 +1,39 @@
+.profile-main span {
+  @apply font-semibold text-lg underline;
+}
+.user-info {
+  @apply md:flex gap-5 p-1 text-left h-48;
+}
+.dp-box {
+  @apply relative md:-top-24 -top-16;
+}
+.dp-box img {
+  @apply rounded-full  object-cover   border-[1rem] border-white z-20;
+}
+.dp-box p {
+  @apply text-xl p-2 cursor-pointer;
+}
+
+.details-box div {
+  @apply flex gap-5 justify-between my-3;
+}
+
+.details-box p {
+  @apply font-semibold text-xl;
+}
+.details-box h1 {
+  @apply text-left w-[70%] text-lg;
+}
+
+.profilePage-sidebar .sidebar-option:hover,
+.dashboard-subSection-option:hover {
+  background: #005c6a;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar-option-selected {
+  background: #005c6a;
+  color: white;
+  cursor: none;
+}

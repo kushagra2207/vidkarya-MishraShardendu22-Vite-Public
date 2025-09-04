@@ -1,0 +1,206 @@
+/* timeTable */
+
+.classScheduleWrapper {
+  padding: 5px 15px 15px 0px;
+}
+
+.timetable-section {
+  display: flex;
+  height: 270px;
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  background-repeat: repeat;
+  background-size: 20px 20px !important;
+  justify-content: center;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  background-color: white;
+  background-image: linear-gradient(
+    45deg,
+    transparent 46%,
+    rgba(0, 0, 0, 0.14) 49%,
+    rgba(0, 0, 0, 0.14) 51%,
+    transparent 55%
+  );
+  border-radius: 6px;
+  /* overflow-x:hidden; */
+  overflow: visible;
+  margin-right: 10px;
+}
+
+.ScrollTimeTable {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  gap: 0.6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* grid-template-rows: auto auto; */
+  justify-content: center;
+  align-items: center;
+}
+
+.timeScroll {
+  position: relative;
+  display: flex;
+  width: 100%;
+  transition: left 1s ease-in-out;
+}
+
+.timeScroll > * {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.cardScroll {
+  position: relative;
+  height: 270px;
+  display: flex;
+  width: 100%;
+  left: 0;
+}
+
+.timer-pointer {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* left: 20%; */
+}
+
+.timer-pointer-heading {
+  color: red;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.timer-pointer-body {
+  position: relative;
+  height: 300px;
+  width: 2px;
+  background-color: red;
+}
+
+.timer-pointer-heading-icon {
+  height: 6px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.timer-pointer-body::before {
+  content: '';
+  display: block;
+  top: -10px;
+  position: relative;
+  height: 10px;
+  width: 2px;
+  background-color: red;
+}
+
+.classCard {
+  box-shadow: 3px 4px 6px 0px #00000040;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 2px;
+  height: fit-content;
+  background-color: white;
+  position: absolute;
+  pointer-events: none;
+}
+
+.classCard > * {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Type {
+  display: flex;
+  width: 60px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.class-section {
+  width: 100%;
+  padding: 35px 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* T O P */
+
+.eventsRightTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eventsTopHeading {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 15px 10px 15px 10px;
+  color: rgb(136, 136, 136);
+}
+
+.eventsRightTopSearchBar {
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+  padding: 5px 5px 5px 10px;
+  margin-right: 30px;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.eventsRightTopSearchBar:focus {
+  outline: none;
+}
+
+.RecentAlerts-Heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.RecentAlerts {
+  display: grid;
+  width: fit-content;
+  padding: 0 5px;
+  grid-template-columns: auto;
+  gap: 10px;
+}
+
+@media screen and (min-width: 1160px) {
+  .RecentAlerts {
+    display: grid;
+    width: fit-content;
+    padding: 0 5px;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 1536px) {
+  .RecentAlerts {
+    width: fit-content;
+    /* width:100%; */
+    padding: 0 5px;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+  }
+}

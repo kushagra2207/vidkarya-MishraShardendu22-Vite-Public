@@ -1,0 +1,280 @@
+/*      P R I V A C Y     */
+
+.settingsWrapper {
+  font-family: 'Roboto';
+  margin: 2rem;
+  padding: 2rem;
+  /* width: 936px; */
+
+  /* Temp */
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 10px;
+}
+
+.privacySecurityHeader {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.privacyBox {
+  margin: 5px;
+  padding: 10px;
+}
+
+.privacyItem {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  /* justify-content: space-between; */
+
+  border-bottom: 1px solid rgb(179, 179, 179);
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
+
+.commentsPrivacy {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
+.privacyItemText {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.itemTextHead {
+  font-weight: 500;
+}
+
+.itemTextDesc {
+  margin: 5px 0px 5px 0px;
+  color: rgb(151, 151, 151);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.privacyItemInput {
+  display: flex;
+  align-items: center;
+}
+
+.privacySelectionBox {
+  border: 0.1rem solid black;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  cursor: pointer;
+}
+
+.privacyItemSocial {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 1px solid rgb(179, 179, 179);
+  margin-bottom: 25px;
+}
+
+.connectedAccountsBox {
+  margin: 10px 0px 10px 0px;
+  padding: 5px 5px 5px 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border: 0.1rem solid rgb(174, 174, 174);
+  border-radius: 5px;
+}
+
+.accDetailsBox {
+  width: 100%;
+  margin: 5px 5px 5px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accDetailsText {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  margin-left: 10px;
+}
+
+.accountTextHead {
+  font-weight: 500;
+}
+
+.accountTextDesc {
+  margin: 5px 0px 5px 0px;
+  color: rgb(151, 151, 151);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.disconnectSocialBtn {
+  margin: 5px;
+  padding: 1px 7px 1px 7px;
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0.1rem solid red;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.disconnectSocialBtn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+.connectMoreAccounts {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.connectMoreTextBox {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  color: grey;
+}
+
+.moreSocialAccountsBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MoreSocialAccountIcon {
+  margin: 5px;
+  padding: 5px;
+  border: 0.1rem solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px;
+  cursor: not-allowed !important;
+}
+
+.MoreSocialAccountIcon:hover {
+  cursor: pointer;
+}
+
+.dataPrivacySettings {
+  border-bottom: 1px solid rgb(179, 179, 179);
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.dataPrivacyItem {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.dataPrivacyBtn {
+  margin: 5px;
+  padding: 1px 7px 1px 7px;
+  color: grey;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0.1rem solid grey;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.dataVisibilityOptions {
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 0.1rem solid rgb(174, 174, 174);
+  border-radius: 5px;
+}
+
+.dataVisibilityItem {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*      S E C U R I T Y     */
+
+.securityBox {
+  margin: 5px;
+  padding: 10px;
+}
+
+.securityItem {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgb(179, 179, 179);
+  margin-bottom: 20px;
+  padding-bottom: 25px;
+}
+
+.securityItemText {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.changePassBtn,
+.addPasswordBtn {
+  margin: 5px;
+  padding: 3px 7px 3px 7px;
+  color: green;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0.1rem solid green;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.changePassBtn:hover,
+.addPasswordBtn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: green;
+}
+
+.signOutFromAllBtn,
+.deleteAccountBtn {
+  margin: 5px;
+  padding: 3px 7px 3px 7px;
+  color: red;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0.1rem solid red;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.signOutFromAllBtn:hover,
+.deleteAccountBtn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+.signOutFromAllBtn,
+.addPasswordBtn {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}

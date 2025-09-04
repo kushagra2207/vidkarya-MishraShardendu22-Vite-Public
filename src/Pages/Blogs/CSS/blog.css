@@ -1,0 +1,17 @@
+.blogtop {
+  padding-top: 50px;
+}
+.blogtopics {
+  padding-top: 80px;
+}
+.topicsnavbar {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.orginialblogs {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}

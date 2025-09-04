@@ -1,0 +1,431 @@
+.wrapper {
+  padding: 70px 130px 70px 130px;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingDiv {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.landingImage {
+  padding: 10px;
+  /* border: 2px dotted rgb(212, 212, 212);
+  border-radius: 15px; */
+}
+
+.aboutPageLogo {
+  height: 300px;
+  width: auto;
+}
+
+.landingContent {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.aboutSubHead {
+  font-weight: 600;
+  font-size: 17px;
+  color: #ff6e0f;
+  margin-bottom: 10px;
+}
+
+.aboutHead {
+  font-weight: 500;
+  font-size: 19px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.line {
+  border: 1.5px solid rgb(170, 170, 170);
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.aboutDescription {
+  color: rgb(67, 67, 67);
+  line-height: 26px;
+  text-align: justify;
+}
+
+.contactButton {
+  margin: 20px 20px 20px 0px;
+  width: 30%;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff6e0f;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.contactButton:hover {
+  background-color: #e85d00;
+}
+
+/*   AFTER LANDING PAGE */
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px 50px 0px;
+}
+
+.mainSubHead {
+  font-weight: 600;
+  font-size: 17px;
+  color: #ff6e0f;
+  margin-bottom: 10px;
+}
+
+.mainHead {
+  font-weight: 500;
+  font-size: 19px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.line {
+  border: 1.5px solid rgb(170, 170, 170);
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.mainDescription {
+  color: rgb(67, 67, 67);
+  line-height: 30px;
+  text-align: justify;
+}
+
+.foundingTeam {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px 50px 0px;
+  width: 100%;
+}
+
+.teamCoverPic {
+  height: 15rem;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5); 
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.teamCoverText {
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+}
+
+.membersList {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.profileWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 10px 10px 10px;
+}
+
+.profilePhoto {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+
+.founderName {
+  font-size: medium;
+  margin-top: 10px;
+}
+
+.founderDesc {
+  font-size: small;
+  color: grey;
+}
+
+.contentTeam {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contentTeamList {
+  list-style-type: disc;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contentTeamList li {
+  margin-right: 30px;
+  color: rgb(78, 78, 78);
+}
+
+
+
+
+
+
+/* New CSS Styles */
+
+
+.visionContainer {
+  width: 100%;
+  padding: 60px 0;
+  margin: 40px 0;
+}
+
+.visionWrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visionSubHead {
+  font-weight: 600;
+  font-size: 17px;
+  color: #FF6E0F;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.visionMainHead {
+  font-weight: 500;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.visionDescription {
+  color: rgb(67, 67, 67);
+  line-height: 1.8;
+  text-align: center;
+  font-size: 16px;
+  max-width: 900px;
+}
+.currTeamCoverText {
+  font-size: 35px;
+  font-weight: 500;
+  color: black;
+}
+.currentTeam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 50px 0;
+  gap: 50px;
+}
+
+.teamSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 25px;
+}
+
+.leaderSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.teamSectionTitle {
+  font-size: 28px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-bottom: 3px;
+}
+
+.membersList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+
+.currProfileWrapper { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(20% - 20px);
+}
+.profilePhoto {
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+
+.memberName {
+  font-size: medium;
+  margin-top: 10px;
+  color: black;
+  text-align: center;
+}
+
+.memberRole {
+  font-size: small;
+  color: grey;
+  text-align: center;
+}
+
+
+
+/* College Chapters Section */
+.collegeTabs {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.collegeTab {
+  padding: 10px 5px;
+  color: #666;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.collegeTab:hover {
+  color: #FF6E0F;
+}
+
+.collegeTab:hover::after,
+.activeTab::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #FF6E0F;
+  transition: all 0.3s ease;
+}
+
+.activeTab {
+  color: #FF6E0F;
+  font-weight: 500;
+}
+
+.collegeChaptersSection {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 450px) {
+  .wrapper {
+    padding: 20px 10px 20px 10px;
+  }
+  .landingDiv {
+    flex-direction: column;
+  }
+
+  .landingImage {
+    display:none;
+  }
+
+  .landingContent {
+    width: 80%;
+  }
+  .aboutDescription {
+    font-size: 14px;
+  }
+
+  .contactButton  {
+    width: 50%;
+  }
+  .teamCoverPic {
+    height: 7rem;
+    background-position: 50% 30%;
+  }
+  .teamCoverText {
+    font-size: 25px !important;
+  }
+
+  .membersList {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Fix for current team and chapter lead sections */
+  .currProfileWrapper {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .leaderSection {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .currentTeam {
+    gap: 30px;
+  }
+  
+  .teamSection {
+    gap: 15px;
+  }
+  
+  .collegeTabs {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .collegeTab {
+    width: auto;
+    text-align: center;
+  }
+  .mainContent {
+    margin-top: 0px;
+    width: 80%;
+  }
+  .mainDescription {
+    font-size: 14px;
+  }
+  .visionContainer {
+    padding: 40px 0;
+    margin: 20px 0;
+  }
+
+  .visionMainHead {
+    font-size: 20px;
+  }
+
+  .visionDescription {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}
+

@@ -1,0 +1,50 @@
+.admin-section {
+  font-family: Poppins;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-container {
+  padding: 1rem;
+}
+
+.admin-container label {
+  font-weight: bold;
+  font-size: 2rem;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.non-active-tab {
+  width: 8rem;
+  padding: 0.6rem 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(109, 109, 109);
+  box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.29);
+}
+
+.tab-active {
+  width: 8rem;
+  padding: 0.6rem 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(109, 109, 109);
+  box-shadow: 2px 3px 0 rgba(0, 0, 0, 0.29);
+  border-bottom: 5px solid #38b5aa;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}

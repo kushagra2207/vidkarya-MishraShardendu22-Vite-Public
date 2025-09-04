@@ -1,0 +1,98 @@
+/* ProfileCard.css */
+.profile-card {
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #00796b, #004d40);
+  color: #ffffff;
+  padding: 20px;
+  height: 200px;
+  padding-bottom: 30px; /* Increase bottom padding to make room for domain badge */
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  /* margin-right: 15px; */
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card-title h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.card-title p {
+  /* margin: 5px 0 0; */
+  font-size: 0.9em;
+}
+
+.card-title span {
+  color: #ff5722;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: 0.9em;
+  color: #333333;
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-top: 25px; /* Increase top padding to accommodate domain badge */
+}
+.about {
+  text-align: justify;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #e0e0e0; */
+  padding: 10px;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.card-footer i {
+  color: #616161;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.card-footer i:hover {
+  color: #00796b;
+}
+
+.domain-badge {
+  position: absolute;
+  right: 0%;
+  /* transform: translateX(-50%); */
+  background-color: #184f4a;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  top: calc(200px - 15px);
+  z-index: 1;
+}

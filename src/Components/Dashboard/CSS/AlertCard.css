@@ -1,0 +1,67 @@
+.alertCard {
+  width: 400px;
+  border-top: 5px solid #005c6a;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 15px 10px 15px;
+  background-image: url('https://res.cloudinary.com/dkyb14ghi/image/upload/v1696186156/webAsset/Dashboard/uhqpedj5sgiam8y6a7ds');
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 5px;
+  font-family: 'Roboto';
+
+  display: flex;
+  flex-direction: column;
+}
+
+.alertCard:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .alertCard {
+    width: fit-content;
+  }
+}
+
+.alertHeading {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.alertSubHeading {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: grey;
+}
+
+@media screen and (max-width: 450px) {
+  .alertHeading {
+    margin-bottom: 2px;
+  }
+
+  .alertSubHeading {
+    margin-bottom: 2px;
+  }
+}
+
+.alertDesc {
+  text-align: justify;
+  color: rgb(97, 97, 97);
+  margin: 0px 5px 0px 0px;
+}
+
+@media screen and (max-width: 450px) {
+  .alertDesc {
+    font-size: 15px;
+  }
+}
+
+.alertCardDate {
+  margin: 2px;
+  display: flex;
+  justify-content: flex-end;
+  color: #005c6a;
+  font-weight: 450;
+}
